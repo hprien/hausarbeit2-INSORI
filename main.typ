@@ -53,6 +53,46 @@ Eine zu späte Alarmierung kann Menschenleben kosten. Eine zu frühe Alarmierung
 == Eine Maschine könnte unterstützen
 Historische Einsatztagebücher sowie Funkptotokolle liefern detailierte Berichte über vermisste Personen, die Kommunikation der Einsatzkräfte und über die Verfassung der vermissten Person bei deren Auffinden. Eine Maschine könnte gebaut werden, die durch hinzuziehen bestehender Einsatztagebücher berechnet, wie schnell externe Hilfe hinzugezogen werden sollte. Als Ziel würde die Schonung externer Einsatzkräfte und die Maximierung der Überlebenschancen der vermissten Person gelten.
 
+= Theoretischer Rahmen
+== Ethische Prinzipien nach Beauchamp und Childress
+Für die moralische Bewertung medizinisch-ethischer Entscheidungen hat sich in der angewandten Ethik das Vier-Prinzipien-Modell von Beauchamp und Childress etabliert @ethic-priciples. Es wird auch im BBK-Leitfaden als Grundlage für Entscheidungen im Bevölkerungsschutz übernommen @bbk-ethische-reflexion[S. 42]. Die vier Prinzipien lauten:
+
+- *Respekt vor der Autonomie*: Die Selbstbestimmung der betroffenen Person ist zu achten.
+- *Nicht-Schaden*: Handlungen sollen keinen Schaden verursachen. Eine zu späte Alarmierung kann den Tod der vermissten Person bedeuten; ein unnötiger Notruf bindet Ressourcen, die anderswo Leben retten könnten.
+- *Fürsorge*: Aktiv zum Wohl der betroffenen Person beitragen. Die Wachleiterin ist verpflichtet, alle verfügbaren Mittel einzusetzen, um die vermisste Person zu finden.
+- *Gerechtigkeit*: Knappe Ressourcen sollen fair verteilt werden. Externe Einsatzkräfte sind begrenzt verfügbar; ihre unnötige Bindung kann andere gefährden.
+
+Die Prinzipien stehen gleichberechtigt nebeneinander und können im Einzelfall in Konflikt geraten @bbk-ethische-reflexion[S. 42]. Genau dieser Konflikt prägt das Dilemma der Wachleiterin.
+
+== Ethische Entscheidungsfindung im Bevölkerungsschutz
+Das Bundesamt für Bevölkerungsschutz und Katastrophenhilfe beschreibt in seinem Leitfaden, für eine ethisch reflektierte
+Entscheidungsfindung im Sanitäts- und Betreuungsdienst, einen siebenstufigen Prozess der ethisch reflektierten Entscheidungsfindung @bbk-ethische-reflexion[S. 51--58]:
+
++ *Situationswahrnehmung*: Was passiert gerade? Welche Fakten liegen vor?
++ *Problemidentifikation*: Welche moralische Herausforderung liegt vor?
++ *Handlungsoptionen*: Welche Möglichkeiten gibt es?
++ *Abwägung anhand der Prinzipien*: Wie verhält sich jede Option zu den vier Prinzipien?
++ *Entscheidung*: Welche Option ist ethisch am besten vertretbar?
++ *Handlung und Dokumentation*: Die Entscheidung wird umgesetzt und festgehalten.
++ *Reflexion*: Im Nachgang wird bewertet, ob die Entscheidung richtig war.
+
+Dieser Prozess ist nicht als Algorithmus zu verstehen, der eine eindeutige Lösung liefert. Er ist ein Reflexionsinstrument, das Einsatzkräften hilft, ihre Wertvorstellungen explizit zu machen und begründete Entscheidungen zu treffen @bbk-ethische-reflexion.
+
+== Actor-Network Theory nach Latour
+Die Actor-Network Theory (ANT) nach Bruno Latour bietet einen Rahmen, um die Verteilung von Handlungsmacht in soziotechnischen Systemen zu analysieren @Latour1996. Zentral ist der Begriff des *Aktanten*: Alles, dem im Netzwerk Handlungsmacht zugeschrieben wird, ist ein Aktant unabhängig davon, ob es sich um einen Menschen, eine Organisation oder ein technisches Artefakt handelt @Latour1996.
+
+ANT lehnt die klassische Unterscheidung zwischen menschlichen Akteuren (die entscheiden) und Maschinen (die ausführen) ab. Stattdessen entstehen Entscheidungen im Netzwerk, durch Übersetzungsprozesse zwischen Aktanten. Eine Maschine, die eine Empfehlung ausspricht, ist damit nicht neutral: Sie verändert die Bedingungen, unter denen die Wachleiterin entscheidet.
+
+Für diese Arbeit ergibt sich daraus ein Netzwerk mit folgenden Aktanten:
+- die vermisste Person und ihre Angehörigen
+- die Wachleiterin und die DLRG-Einsatzkräfte vor Ort
+- die empfehlende Maschine und ihre Trainingsdaten
+- historische Einsatztagebücher als Datenquelle
+- rechtliche Normen (PolG, FwG, RDG BW)
+- externe Einsatzkräfte (Polizei, Feuerwehr, Rettungsdienst, DLRG)
+
+Verantwortung lässt sich in einem solchen Netzwerk nicht auf eine einzige Person zurückführen @Latour1996 @vertrauen-in-technik.
+
 = Verantwortung
 == Rechtliche Struktur einer Personensuche am Badesee
 Die Regulierung von Polizei, Feuerwehr und Rettungsdienst ist Ländersache. Für diese Arbeit wird nur der Rechtliche Ramen in Baden-Württemberg betrachtet. In Baden-Württemberg hat #quote[die Polizei [...] die Aufgabe, von dem Einzelnen [...] Gefahren abzuwehren [...]] @PolGBW2020[§1], die Feuerwehr hat #quote[zur Rettung von Menschen [...] aus lebensbedrohlichen Lagen  technische Hilfe zu leisten] @FwGBW2010[§2] und dem Rettungsdienst kommt die Aufgabe der #quote[[...] Versorgung der Bevölkerung mit Leistungen der Notfallrettung [...]] @rdg_bw_2024[§1] zu. Die rechtliche Zuständigkeit bei der Suche einer vermissten Person am Wasser ist also nicht ganz einfach und hängt zusätzlich vom Versicherer des Badebetriebs ab.
@@ -69,4 +109,10 @@ Durch die zu untersuchende Maschine würden die ersten Schritte bis zum Notruf b
 Die Wachleiterin trägt eher weniger rechtliche Verantwortung viel mehr befindet sie sich in einem Dilemma. Es gibt keine klar bessere Entchidung. Verschiedene moralische Grundsätze und Ethische Abwägungsprinzipien führen schlussendlich zur Entscheidung @bbk-ethische-reflexion. Die zu untersuchende Maschine gliedert sich in das Actor Network lediglich als eine Komponente ein, sie trifft keine Entscheidung alleine. Sie kann also dabei helfen eine riesige Erfahrungsmenge aus vergangenen Einsätzen auf die aktuell vermisste Person zu beziehen. Das hilft der Wachleiterin bei einer informierteren Entscheidung. 
 
 = Fazit
-Forschungsfrage: Nein kann mann nicht vertreten aber das ist auch nicht das Ziel. Ziel ist es eine bessere Entscheidung zu treffen
+- Die Forschungsfrage ist falsch gestellt: Es geht nicht darum, die *Verzögerung* maschinell zu bestimmen, sondern die Entscheidungsfindung der Wachleiterin zu *unterstützen* -- die Entscheidung bleibt menschlich.
+- Eine Maschine, die auf Basis historischer Einsatzdaten Empfehlungen gibt, ist ethisch vertretbar, *wenn* sie als Hilfsmittel im BBK-Sinne eingesetzt wird (Schritt 3/4 des 7-Stufen-Prozesses) und keine autonome Entscheidungsgewalt erhält.
+- Die vier Prinzipien nach Beauchamp/Childress sprechen nicht gegen die Maschine per se: Sie kann Fürsorge stärken (bessere Informationslage), Nicht-Schaden und Gerechtigkeit verbessern (weniger unnötige Alarmierungen).
+- Risiko der Verantwortungsdiffusion (ANT): Je mehr Aktanten im Netzwerk, desto schwieriger wird es, im Schadensfall Verantwortung zuzuordnen -- Entwickler, Datenbasis und Wachleiterin tragen gemeinsam Verantwortung.
+- Risiko algorithmischer Verzerrung: Trainingsdaten spiegeln vergangene Einsätze wider; systematische Fehler (z.B. Unterrepräsentation bestimmter Personengruppen) können zu Ungerechtigkeiten führen.
+- Autonomie der vermissten Person: Persönliche Merkmale (Schwimmfähigkeit, Alter) müssen in die Maschine einfließen -- sonst verletzt sie das Autonomieprinzip durch Verallgemeinerung.
+- Der BBK-Leitfaden betont: Kein Werkzeug nimmt der Führungskraft die Entscheidungsverantwortung ab -- auch eine KI-Empfehlung darf nicht als bindend verstanden werden.
