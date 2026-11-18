@@ -58,6 +58,7 @@ Historische Einsatztagebücher sowie Funkptotokolle liefern detailierte Berichte
 Für die moralische Bewertung medizinisch-ethischer Entscheidungen hat sich in der angewandten Ethik das Vier-Prinzipien-Modell von Beauchamp und Childress etabliert @ethic-priciples. Es wird auch im BBK-Leitfaden als Grundlage für Entscheidungen im Bevölkerungsschutz übernommen @bbk-ethische-reflexion[S. 42]. Die vier Prinzipien lauten:
 
 - *Respekt vor der Autonomie*: Die Selbstbestimmung der betroffenen Person ist zu achten.
+// todo: einzigartigkeit in ihren eigenschaften mit aufnehmen
 - *Nicht-Schaden*: Handlungen sollen keinen Schaden verursachen. Eine zu späte Alarmierung kann den Tod der vermissten Person bedeuten; ein unnötiger Notruf bindet Ressourcen, die anderswo Leben retten könnten.
 - *Fürsorge*: Aktiv zum Wohl der betroffenen Person beitragen. Die Wachleiterin ist verpflichtet, alle verfügbaren Mittel einzusetzen, um die vermisste Person zu finden.
 - *Gerechtigkeit*: Knappe Ressourcen sollen fair verteilt werden. Externe Einsatzkräfte sind begrenzt verfügbar; ihre unnötige Bindung kann andere gefährden.
@@ -68,6 +69,7 @@ Die Prinzipien stehen gleichberechtigt nebeneinander und können im Einzelfall i
 Das Bundesamt für Bevölkerungsschutz und Katastrophenhilfe beschreibt in seinem Leitfaden, für eine ethisch reflektierte
 Entscheidungsfindung im Sanitäts- und Betreuungsdienst, einen siebenstufigen Prozess der ethisch reflektierten Entscheidungsfindung @bbk-ethische-reflexion[S. 51--58]:
 
+// todo: Begriffe genau auf Leitfaden anpassen und Fragen ersetzen
 + *Situationswahrnehmung*: Was passiert gerade? Welche Fakten liegen vor?
 + *Problemidentifikation*: Welche moralische Herausforderung liegt vor?
 + *Handlungsoptionen*: Welche Möglichkeiten gibt es?
@@ -106,13 +108,13 @@ Durch die zu untersuchende Maschine würden die ersten Schritte bis zum Notruf b
 
 = Moralische Bewertung der Maschine
 == Nutzen erwägen
-Die Wachleiterin trägt eher weniger rechtliche Verantwortung viel mehr befindet sie sich in einem Dilemma. Es gibt keine klar bessere Entchidung. Verschiedene moralische Grundsätze und Ethische Abwägungsprinzipien führen schlussendlich zur Entscheidung @bbk-ethische-reflexion. Die zu untersuchende Maschine gliedert sich in das Actor Network lediglich als eine Komponente ein, sie trifft keine Entscheidung alleine. Sie kann also dabei helfen eine riesige Erfahrungsmenge aus vergangenen Einsätzen auf die aktuell vermisste Person zu beziehen. Das hilft der Wachleiterin bei einer informierteren Entscheidung. 
+Die Wachleiterin trägt eher weniger rechtliche Verantwortung viel mehr befindet sie sich in einem Dilemma. Es gibt keine klar bessere Entchidung. Verschiedene moralische Grundsätze und Ethische Abwägungsprinzipien führen schlussendlich zur Entscheidung @bbk-ethische-reflexion. Die zu untersuchende Maschine gliedert sich in das Actor Network lediglich als eine Komponente ein, sie trifft keine Entscheidung alleine. Sie kann also dabei helfen eine riesige Erfahrungsmenge aus vergangenen Einsätzen auf die aktuell vermisste Person zu beziehen. Das hilft der Wachleiterin bei einer informierteren Entscheidung.
+// todo: wo in theoretischen Rahmen einordnen speziell im BBK Leitfaden
+// todo: einarbeiten: - Risiko algorithmischer Verzerrung: Trainingsdaten spiegeln vergangene Einsätze wider; systematische Fehler (z.B. Unterrepräsentation bestimmter Personengruppen) können zu Ungerechtigkeiten führen.
+// todo: einarbeiten: - Der BBK-Leitfaden betont: Kein Werkzeug nimmt der Führungskraft die Entscheidungsverantwortung ab -- auch eine KI-Empfehlung darf nicht als bindend verstanden werden.
 
 = Fazit
 - Die Forschungsfrage ist falsch gestellt: Es geht nicht darum, die *Verzögerung* maschinell zu bestimmen, sondern die Entscheidungsfindung der Wachleiterin zu *unterstützen* -- die Entscheidung bleibt menschlich.
 - Eine Maschine, die auf Basis historischer Einsatzdaten Empfehlungen gibt, ist ethisch vertretbar, *wenn* sie als Hilfsmittel im BBK-Sinne eingesetzt wird (Schritt 3/4 des 7-Stufen-Prozesses) und keine autonome Entscheidungsgewalt erhält.
 - Die vier Prinzipien nach Beauchamp/Childress sprechen nicht gegen die Maschine per se: Sie kann Fürsorge stärken (bessere Informationslage), Nicht-Schaden und Gerechtigkeit verbessern (weniger unnötige Alarmierungen).
-- Risiko der Verantwortungsdiffusion (ANT): Je mehr Aktanten im Netzwerk, desto schwieriger wird es, im Schadensfall Verantwortung zuzuordnen -- Entwickler, Datenbasis und Wachleiterin tragen gemeinsam Verantwortung.
-- Risiko algorithmischer Verzerrung: Trainingsdaten spiegeln vergangene Einsätze wider; systematische Fehler (z.B. Unterrepräsentation bestimmter Personengruppen) können zu Ungerechtigkeiten führen.
-- Autonomie der vermissten Person: Persönliche Merkmale (Schwimmfähigkeit, Alter) müssen in die Maschine einfließen -- sonst verletzt sie das Autonomieprinzip durch Verallgemeinerung.
-- Der BBK-Leitfaden betont: Kein Werkzeug nimmt der Führungskraft die Entscheidungsverantwortung ab -- auch eine KI-Empfehlung darf nicht als bindend verstanden werden.
+// todo: ANT Network braucht noch ein Fazit
