@@ -15,7 +15,7 @@
 }
 
 #show: lncs.with(
-  title: "Contribution Title",
+  title: "Datengestützte Alarmierungsunterstützung bei Personensuchen: Eine technikethische Betrachtung",
   // Opt.: Set this, if the title is too long to avoid linebreaks in the header of odd pages
   // running-title: "Short version of contribution title",
   // running-author: "Override the default author shortening",
@@ -27,9 +27,9 @@
     ),
   ),
   abstract: [
-    Wirkung und Folgen Informatischen Handelns für Gesellschaft im gesellschaftlichen Zusammenhang reflektieren.
+    In dieser Arbeit wird die These vertreten, dass eine datengestützte Maschine zur Unterstützung der Alarmierungsentscheidung bei Personensuchen an Badeseen ethisch vertretbar ist -- vorausgesetzt, sie ersetzt nicht das menschliche Urteil, sondern ergänzt es. Dazu werden das Vier-Prinzipien-Modell der Medizinethik nach Beauchamp und Childress, der siebenstufige Entscheidungsprozess des BBK-Leitfadens zur Ethischen Reflexion im Bevölkerungsschutz sowie die Actor-Network Theory nach Latour als theoretische Rahmen herangezogen und auf das Fallbeispiel der DLRG-Wachleiterin angewendet. Die Arbeit legt zunächst die Problemstellung und das moralische Dilemma der Wachleiterin dar. Anschließend werden der theoretische Rahmen und die rechtliche Verantwortungsstruktur skizziert. Darauf aufbauend erfolgt die moralische Bewertung der Maschine anhand der ethischen Prinzipien und der Actor-Network Theory Perspektive. Das Fazit zeigt, dass die Forschungsfrage in ihrer ursprünglichen Form neu gestellt werden muss: Es geht nicht um die maschinelle Bestimmung einer Verzögerung, sondern um die informierte Unterstützung einer menschlichen Entscheidung. Weiterführend könnte untersucht werden, welche Anforderungen an Transparenz und Datenqualität eine solche Maschine erfüllen müsste, um in der Praxis des Bevölkerungsschutzes verantwortungsvoll eingesetzt werden zu können.
   ],
-  keywords: ("Technikforschung", "Technikfolgenabschätzung", "Technikethik", "Soziologie", "Philosophie"),
+  keywords: ("Technikfolgenabschätzung", "Technikethik", "Bevölkerungsschutz", "DLRG", "Actor-Network Theory", "Medizinethik", "Entscheidungsunterstützung"),
   bibliography: bibliography("refs.bib"),
   // optional configuration of page (takes all page parameter)
   // page_config: (paper: "a4")
